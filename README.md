@@ -2,8 +2,8 @@
 Brainstorming ideas to continue Gateone legacy
 
 
-It's fucking 2025
-Despite being nearly a decade old (last commit ~2016), GateOne still outperforms most "modern" web-based terminals in key areas
+It's fucking 2025.
+And despite being nearly a DECADE old (last commit ~2016), GateOne still outperforms most "modern" web-based terminals in key areas
 
 | Feature                            | GateOne                                   | Modern Alternatives (Wetty, ttyd, GoTTY, Tabby, Xterm.js, etc.) |
 | ---------------------------------- | ----------------------------------------- | --------------------------------------------------------------- |
