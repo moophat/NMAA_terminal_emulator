@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Terminal</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/xterm/css/xterm.css" />
+    <script src="https://unpkg.com/xterm/lib/xterm.js"></script>
+    <style>
+      #terminal-container {
+        width: 100%;
+        height: 60vh;
+        background-color: #000;
+        display: none;
+      }
+      #modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+      }
+      #modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      #reconnect-btn {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #reconnect-btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="modal">
+      <div id="modal-content">
+        <h3>Enter SSH Credentials</h3>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="e.g., user" />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" />
+        <br /><br />
+        <label for="log-level">SSH Debug Log Level:</label>
+        <select id="log-level">
+          <option value="error">Error</option>
+          <option value="warn">Warn</option>
+          <option value="info">Info</option>
+          <option value="debug">Debug</option>
+        </select>
+        <br /><br />
+        <button id="connect-btn">Connect</button>
+      </div>
+    </div>
+
+    <div id="terminal-container"></div>
+    <button id="reconnect-btn">Reconnect</button>
+
+    <script type="module">
+      import { keyBindings, updateTerminalDisplay } from "./keybindings.js";
+
+      function getUrlParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+      }
+
+      const destination = getUrlParameter("destination");
+      if (!destination) {
+        alert("Destination not specified in the URL.");
+      }
+
+      const term = new Terminal();
+      let socket;
+      const terminalContainer = document.getElementById("terminal-container");
+      const reconnectBtn = document.getElementById("reconnect-btn");
+      let isConnected = false;
+
+      term.open(terminalContainer);
+
+      const state = {
+        currentCommand: "",
+        cursorPosition: 0,
+        history: [],
+        historyIndex: -1,
+      };
+
+      const modal = document.getElementById("modal");
+      modal.style.display = "flex";
+
+      function initializeWebSocket() {
+        socket = new WebSocket(window.location.origin.replace(/^http/, "ws"));
+
+        socket.onopen = () => {
+          console.log("WebSocket connection established");
+        };
+
+        socket.onerror = (error) => {
+          console.error("WebSocket error:", error.message);
+        };
+
+        socket.onclose = () => {
+          console.log("WebSocket connection closed");
+          isConnected = false;
+        };
+
+        socket.onmessage = (event) => {
+          const message = JSON.parse(event.data);
+          console.log("Received message from server:", message);
+          if (message.type === "output") {
+            term.write(message.data);
+          } else if (message.type === "connected") {
+            console.log("SSH connection established");
+            isConnected = true;
+          } else if (message.type === "error") {
+            term.write(`\r\nError: ${message.message}\r\n`);
+            document.getElementById("connect-btn").disabled = false;
+          }
+        };
+      }
+
+      initializeWebSocket();
+
+      document.getElementById("connect-btn").onclick = () => {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const logLevel = document.getElementById("log-level").value;
+
+        if (!destination || !username || !password) {
+          alert("Please provide all required fields.");
+          return;
+        }
+
+        isConnected = false;
+        document.getElementById("connect-btn").disabled = true;
+
+        socket.send(
+          JSON.stringify({
+            type: "start-ssh",
+            hostname: destination,
+            username,
+            password,
+            logLevel,
+          })
+        );
+
+        modal.style.display = "none";
+        terminalContainer.style.display = "block";
+      };
+
+      reconnectBtn.onclick = () => {
+        terminalContainer.style.display = "none";
+        term.clear();
+        document.getElementById("username").value = "";
+        document.getElementById("password").value = "";
+        document.getElementById("log-level").value = "error";
+        document.getElementById("connect-btn").disabled = false;
+        modal.style.display = "flex";
+
+        if (socket) {
+          socket.close();
+        }
+        initializeWebSocket();
+      };
+
+      term.onData((data) => {
+        if (isConnected) {
+          console.log("Data captured in onData:", data); // Log input data
+          socket.send(JSON.stringify({ type: "input", data }));
+        }
+      });
+
+      term.onKey(({ key, domEvent }) => {
+        let keyCombo = "";
+
+        // Only handle special keys in onKey, skip regular character keys
+        if (domEvent.ctrlKey) {
+          keyCombo = `Ctrl+${domEvent.key.toUpperCase()}`;
+        } else if (domEvent.altKey) {
+          keyCombo = `Alt+${domEvent.key.toUpperCase()}`;
+        } else if (
+          ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(
+            domEvent.code
+          )
+        ) {
+          keyCombo = domEvent.code;
+        }
+
+        if (keyCombo) {
+          // Execute the key binding if it exists
+          if (keyBindings[keyCombo]) {
+            keyBindings[keyCombo](term, state);
+          }
+
+          // Send special keys to the SSH server
+          if (isConnected) {
+            console.log("Special key pressed:", keyCombo);
+            socket.send(JSON.stringify({ type: "input", data: key }));
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

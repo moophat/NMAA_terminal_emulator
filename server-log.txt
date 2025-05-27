@@ -1,0 +1,1335 @@
+2024-10-04T21:39:29.880Z - Server started on port 3000
+2024-10-04T21:39:32.902Z - Server started on port 3000
+2024-10-04T21:42:00.888Z - WebSocket connection closed
+2024-10-04T21:45:08.790Z - WebSocket connection closed
+2024-10-04T21:45:17.985Z - Server started on port 3000
+2024-10-04T21:45:21.858Z - Server started on port 3000
+2024-10-04T21:45:33.133Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T21:45:34.045Z - SSH connection established.
+2024-10-04T21:45:34.368Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T21:45:38.796Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:38.797Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:38.797Z - Sent to SSH: d
+2024-10-04T21:45:38.882Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:38.882Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:38.883Z - Sent to SSH: d
+2024-10-04T21:45:38.883Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:38.883Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:38.885Z - Sent to SSH: s
+2024-10-04T21:45:38.885Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:38.885Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:38.885Z - Sent to SSH: s
+2024-10-04T21:45:38.885Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:45:38.885Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:45:38.886Z - Sent to SSH: a
+2024-10-04T21:45:38.886Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:45:38.886Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:45:38.886Z - Sent to SSH: a
+2024-10-04T21:45:38.898Z - SSH data: d
+2024-10-04T21:45:38.906Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:45:38.906Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:45:38.906Z - Sent to SSH: f
+2024-10-04T21:45:38.906Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:45:38.906Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:45:38.906Z - Sent to SSH: f
+2024-10-04T21:45:38.998Z - SSH data: d
+2024-10-04T21:45:38.998Z - SSH data: ssaa
+2024-10-04T21:45:39.072Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:39.072Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:39.072Z - Sent to SSH: s
+2024-10-04T21:45:39.072Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:39.072Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:39.072Z - Sent to SSH: s
+2024-10-04T21:45:39.099Z - SSH data: ff
+2024-10-04T21:45:39.199Z - SSH data: s
+2024-10-04T21:45:39.199Z - SSH data: s
+2024-10-04T21:45:40.185Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:40.185Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:40.185Z - Sent to SSH: s
+2024-10-04T21:45:40.185Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:40.185Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:40.185Z - Sent to SSH: s
+2024-10-04T21:45:40.257Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:40.257Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:40.257Z - Sent to SSH: d
+2024-10-04T21:45:40.257Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:40.257Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:40.257Z - Sent to SSH: d
+2024-10-04T21:45:40.286Z - SSH data: s
+2024-10-04T21:45:40.310Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:45:40.310Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:45:40.310Z - Sent to SSH: f
+2024-10-04T21:45:40.310Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:45:40.310Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:45:40.310Z - Sent to SSH: f
+2024-10-04T21:45:40.386Z - SSH data: sdd
+2024-10-04T21:45:40.422Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:40.422Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:40.422Z - Sent to SSH: s
+2024-10-04T21:45:40.422Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:45:40.422Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:45:40.422Z - Sent to SSH: s
+2024-10-04T21:45:40.497Z - SSH data: ff
+2024-10-04T21:45:40.587Z - SSH data: ss
+2024-10-04T21:45:45.260Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:45:45.261Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:45:45.261Z - Sent to SSH: 
+2024-10-04T21:45:45.261Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:45:45.261Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:45:45.261Z - Sent to SSH: 
+2024-10-04T21:45:45.361Z - SSH data: 
+
+2024-10-04T21:45:45.361Z - SSH data: -sh: Command 'ddssaaffssssddffss' not supported.
+demo@test:/$ 
+2024-10-04T21:45:45.463Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:45:47.075Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:45:47.075Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:45:47.076Z - Sent to SSH: a
+2024-10-04T21:45:47.076Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:45:47.076Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:45:47.076Z - Sent to SSH: a
+2024-10-04T21:45:47.176Z - SSH data: a
+2024-10-04T21:45:47.276Z - SSH data: a
+2024-10-04T21:45:47.307Z - Received WebSocket message: {"type":"input","data":"b"}
+2024-10-04T21:45:47.307Z - Received input from client: {"type":"input","data":"b"}
+2024-10-04T21:45:47.307Z - Sent to SSH: b
+2024-10-04T21:45:47.307Z - Received WebSocket message: {"type":"input","data":"b"}
+2024-10-04T21:45:47.307Z - Received input from client: {"type":"input","data":"b"}
+2024-10-04T21:45:47.308Z - Sent to SSH: b
+2024-10-04T21:45:47.408Z - SSH data: b
+2024-10-04T21:45:47.508Z - SSH data: b
+2024-10-04T21:45:47.592Z - Received WebSocket message: {"type":"input","data":"c"}
+2024-10-04T21:45:47.592Z - Received input from client: {"type":"input","data":"c"}
+2024-10-04T21:45:47.592Z - Sent to SSH: c
+2024-10-04T21:45:47.592Z - Received WebSocket message: {"type":"input","data":"c"}
+2024-10-04T21:45:47.592Z - Received input from client: {"type":"input","data":"c"}
+2024-10-04T21:45:47.592Z - Sent to SSH: c
+2024-10-04T21:45:47.693Z - SSH data: c
+2024-10-04T21:45:47.794Z - SSH data: c
+2024-10-04T21:45:47.825Z - Received WebSocket message: {"type":"input","data":"e"}
+2024-10-04T21:45:47.825Z - Received input from client: {"type":"input","data":"e"}
+2024-10-04T21:45:47.825Z - Sent to SSH: e
+2024-10-04T21:45:47.825Z - Received WebSocket message: {"type":"input","data":"e"}
+2024-10-04T21:45:47.825Z - Received input from client: {"type":"input","data":"e"}
+2024-10-04T21:45:47.825Z - Sent to SSH: e
+2024-10-04T21:45:47.925Z - SSH data: e
+2024-10-04T21:45:48.026Z - SSH data: e
+2024-10-04T21:45:48.042Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:48.042Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:48.042Z - Sent to SSH: d
+2024-10-04T21:45:48.042Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:48.042Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:48.042Z - Sent to SSH: d
+2024-10-04T21:45:48.143Z - SSH data: d
+2024-10-04T21:45:48.245Z - SSH data: d
+2024-10-04T21:45:49.688Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:45:49.688Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:45:49.688Z - Sent to SSH: 
+2024-10-04T21:45:49.688Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:45:49.783Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:45:49.783Z - Sent to SSH: 
+2024-10-04T21:45:49.789Z - SSH data: 
+
+2024-10-04T21:45:49.789Z - SSH data: -sh: Command 'aabbcceedd' not supported.
+
+2024-10-04T21:45:49.789Z - SSH data: demo@test:/$ 
+2024-10-04T21:45:49.893Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:45:50.307Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:45:50.307Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:45:50.308Z - Sent to SSH: a
+2024-10-04T21:45:50.308Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:45:50.308Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:45:50.308Z - Sent to SSH: a
+2024-10-04T21:45:50.408Z - SSH data: a
+2024-10-04T21:45:50.508Z - SSH data: a
+2024-10-04T21:45:51.252Z - Received WebSocket message: {"type":"input","data":"b"}
+2024-10-04T21:45:51.252Z - Received input from client: {"type":"input","data":"b"}
+2024-10-04T21:45:51.252Z - Sent to SSH: b
+2024-10-04T21:45:51.252Z - Received WebSocket message: {"type":"input","data":"b"}
+2024-10-04T21:45:51.252Z - Received input from client: {"type":"input","data":"b"}
+2024-10-04T21:45:51.252Z - Sent to SSH: b
+2024-10-04T21:45:51.353Z - SSH data: b
+2024-10-04T21:45:51.453Z - SSH data: b
+2024-10-04T21:45:52.069Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:45:52.069Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:45:52.069Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:45:52.069Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:45:52.069Z - Sent to SSH: 
+2024-10-04T21:45:52.070Z - Sent to SSH: 
+2024-10-04T21:45:52.170Z - SSH data: 
+
+2024-10-04T21:45:52.170Z - SSH data: -sh: Command 'aabb' not supported.
+demo@test:/$ 
+2024-10-04T21:45:52.270Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:45:53.080Z - Received WebSocket message: {"type":"input","data":"e"}
+2024-10-04T21:45:53.080Z - Received input from client: {"type":"input","data":"e"}
+2024-10-04T21:45:53.081Z - Sent to SSH: e
+2024-10-04T21:45:53.081Z - Received WebSocket message: {"type":"input","data":"e"}
+2024-10-04T21:45:53.081Z - Received input from client: {"type":"input","data":"e"}
+2024-10-04T21:45:53.081Z - Sent to SSH: e
+2024-10-04T21:45:53.182Z - SSH data: e
+2024-10-04T21:45:53.282Z - SSH data: e
+2024-10-04T21:45:53.308Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:53.379Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:53.379Z - Sent to SSH: d
+2024-10-04T21:45:53.381Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:45:53.381Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:45:53.381Z - Sent to SSH: d
+2024-10-04T21:45:53.480Z - SSH data: d
+2024-10-04T21:45:53.581Z - SSH data: d
+2024-10-04T21:47:12.779Z - WebSocket connection closed
+2024-10-04T21:47:12.888Z - SSH connection closed.
+2024-10-04T21:47:34.654Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T21:47:35.550Z - SSH connection established.
+2024-10-04T21:47:35.851Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T21:47:37.705Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:47:37.706Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:47:37.706Z - Sent to SSH: d
+2024-10-04T21:47:37.706Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:47:37.706Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:47:37.706Z - Sent to SSH: d
+2024-10-04T21:47:37.795Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:47:37.795Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:47:37.795Z - Sent to SSH: f
+2024-10-04T21:47:37.795Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:47:37.795Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:47:37.795Z - Sent to SSH: f
+2024-10-04T21:47:37.811Z - SSH data: d
+2024-10-04T21:47:37.905Z - SSH data: df
+2024-10-04T21:47:37.906Z - SSH data: f
+2024-10-04T21:47:37.945Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:47:37.945Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:47:37.945Z - Sent to SSH: d
+2024-10-04T21:47:37.945Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:47:37.945Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:47:37.945Z - Sent to SSH: d
+2024-10-04T21:47:38.045Z - SSH data: d
+2024-10-04T21:47:38.144Z - SSH data: d
+2024-10-04T21:47:38.710Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:47:38.710Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:47:38.710Z - Sent to SSH: 
+2024-10-04T21:47:38.710Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:47:38.710Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:47:38.710Z - Sent to SSH: 
+2024-10-04T21:47:38.810Z - SSH data: 
+
+2024-10-04T21:47:38.810Z - SSH data: -sh: Command 'ddffdd' not supported.
+demo@test:/$ 
+2024-10-04T21:47:38.910Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:47:39.857Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:39.858Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:39.858Z - Sent to SSH: 
+2024-10-04T21:47:39.858Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:39.858Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:39.858Z - Sent to SSH: 
+2024-10-04T21:47:42.093Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:47:42.093Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:47:42.094Z - Sent to SSH: 
+2024-10-04T21:47:42.094Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:47:42.094Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:47:42.094Z - Sent to SSH: 
+2024-10-04T21:47:42.193Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:47:42.294Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:47:48.108Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:47:48.108Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:47:48.108Z - Sent to SSH: 
+2024-10-04T21:47:48.108Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:47:48.108Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:47:48.108Z - Sent to SSH: 
+2024-10-04T21:47:48.208Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:47:48.307Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:47:51.129Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:51.129Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:51.130Z - Sent to SSH: 
+2024-10-04T21:47:51.130Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:51.130Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:47:51.130Z - Sent to SSH: 
+2024-10-04T21:48:10.275Z - WebSocket connection closed
+2024-10-04T21:48:10.375Z - SSH connection closed.
+2024-10-04T21:48:14.649Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T21:48:15.545Z - SSH connection established.
+2024-10-04T21:48:15.847Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T21:48:17.134Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:48:17.135Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:48:17.135Z - Sent to SSH: s
+2024-10-04T21:48:17.135Z - Received input from client: {"type":"input","data":"s"}
+2024-10-04T21:48:17.135Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:48:17.135Z - Sent to SSH: s
+2024-10-04T21:48:17.201Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:48:17.201Z - Sent to SSH: d
+2024-10-04T21:48:17.201Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:48:17.201Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:48:17.201Z - Received input from client: {"type":"input","data":"d"}
+2024-10-04T21:48:17.201Z - Sent to SSH: d
+2024-10-04T21:48:17.235Z - SSH data: s
+2024-10-04T21:48:17.299Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:48:17.299Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:48:17.299Z - Sent to SSH: f
+2024-10-04T21:48:17.299Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:48:17.299Z - Received input from client: {"type":"input","data":"f"}
+2024-10-04T21:48:17.300Z - Sent to SSH: f
+2024-10-04T21:48:17.335Z - SSH data: sd
+2024-10-04T21:48:17.335Z - SSH data: d
+2024-10-04T21:48:17.435Z - SSH data: ff
+2024-10-04T21:48:18.011Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:18.011Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:18.011Z - Sent to SSH: 
+2024-10-04T21:48:18.011Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:18.011Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:18.011Z - Sent to SSH: 
+2024-10-04T21:48:18.112Z - SSH data: 
+
+2024-10-04T21:48:18.112Z - SSH data: -sh: Command 'ssddff' not supported.
+demo@test:/$ 
+2024-10-04T21:48:18.212Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:19.856Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:48:19.856Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:48:19.856Z - Sent to SSH: 
+2024-10-04T21:48:19.857Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:48:19.857Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:48:19.857Z - Sent to SSH: 
+2024-10-04T21:48:24.425Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:24.425Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:24.425Z - Sent to SSH: 
+2024-10-04T21:48:24.425Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:24.425Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:24.425Z - Sent to SSH: 
+2024-10-04T21:48:24.525Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:24.625Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:26.882Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:26.882Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:26.883Z - Sent to SSH: 
+2024-10-04T21:48:26.883Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:26.883Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:26.883Z - Sent to SSH: 
+2024-10-04T21:48:26.983Z - SSH data: 
+
+2024-10-04T21:48:26.983Z - SSH data: demo@test:/$ 
+2024-10-04T21:48:27.083Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:29.974Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:29.974Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:29.974Z - Sent to SSH: 
+2024-10-04T21:48:29.974Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:29.974Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:29.975Z - Sent to SSH: 
+2024-10-04T21:48:30.075Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:30.175Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:30.777Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:30.777Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:30.777Z - Sent to SSH: 
+2024-10-04T21:48:30.777Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:30.777Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:30.777Z - Sent to SSH: 
+2024-10-04T21:48:30.877Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:30.978Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:31.647Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:31.647Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:31.647Z - Sent to SSH: 
+2024-10-04T21:48:31.647Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:48:31.647Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:48:31.647Z - Sent to SSH: 
+2024-10-04T21:48:31.747Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:48:31.847Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:12.700Z - WebSocket connection closed
+2024-10-04T21:49:12.801Z - SSH connection closed.
+2024-10-04T21:49:16.999Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T21:49:17.899Z - SSH connection established.
+2024-10-04T21:49:18.200Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T21:49:18.371Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:18.371Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:18.371Z - Sent to SSH: 
+2024-10-04T21:49:18.371Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:18.371Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:18.372Z - Sent to SSH: 
+2024-10-04T21:49:18.471Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:18.571Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:20.891Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:49:20.891Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:49:20.891Z - Sent to SSH: 
+2024-10-04T21:49:20.892Z - Received WebSocket message: {"type":"input","data":"\u0003"}
+2024-10-04T21:49:20.892Z - Received input from client: {"type":"input","data":"\u0003"}
+2024-10-04T21:49:20.892Z - Sent to SSH: 
+2024-10-04T21:49:25.288Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:25.288Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:25.288Z - Sent to SSH: 
+2024-10-04T21:49:25.288Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:25.288Z - Sent to SSH: 
+2024-10-04T21:49:25.288Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:25.388Z - SSH data: 
+
+2024-10-04T21:49:25.388Z - SSH data: demo@test:/$ 
+2024-10-04T21:49:25.488Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:29.636Z - Received WebSocket message: {"type":"input","data":"\u001bc"}
+2024-10-04T21:49:29.636Z - Received input from client: {"type":"input","data":"\u001bc"}
+2024-10-04T21:49:29.636Z - Sent to SSH: c
+2024-10-04T21:49:29.636Z - Received WebSocket message: {"type":"input","data":"\u001bc"}
+2024-10-04T21:49:29.636Z - Received input from client: {"type":"input","data":"\u001bc"}
+2024-10-04T21:49:29.637Z - Sent to SSH: c
+2024-10-04T21:49:29.736Z - SSH data: c
+2024-10-04T21:49:29.839Z - SSH data: c
+2024-10-04T21:49:32.914Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:32.914Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:32.914Z - Sent to SSH: [C
+2024-10-04T21:49:32.914Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:32.914Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:32.914Z - Sent to SSH: [C
+2024-10-04T21:49:33.786Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:33.786Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:33.786Z - Sent to SSH: [D
+2024-10-04T21:49:33.786Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:33.786Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:33.787Z - Sent to SSH: [D
+2024-10-04T21:49:33.888Z - SSH data: 
+2024-10-04T21:49:33.988Z - SSH data: 
+2024-10-04T21:49:34.382Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:34.382Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:34.382Z - Sent to SSH: [D
+2024-10-04T21:49:34.382Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:34.382Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:34.382Z - Sent to SSH: [D
+2024-10-04T21:49:34.879Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:34.880Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:34.880Z - Sent to SSH: [C
+2024-10-04T21:49:34.880Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:34.880Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:34.880Z - Sent to SSH: [C
+2024-10-04T21:49:34.980Z - SSH data: [C
+2024-10-04T21:49:35.081Z - SSH data: [C
+2024-10-04T21:49:36.008Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.008Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.008Z - Sent to SSH: [D
+2024-10-04T21:49:36.008Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.008Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.008Z - Sent to SSH: [D
+2024-10-04T21:49:36.108Z - SSH data: 
+2024-10-04T21:49:36.208Z - SSH data: 
+2024-10-04T21:49:36.307Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.307Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.308Z - Sent to SSH: [C
+2024-10-04T21:49:36.308Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.308Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.308Z - Sent to SSH: [C
+2024-10-04T21:49:36.408Z - SSH data: [C
+2024-10-04T21:49:36.506Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.506Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.506Z - Sent to SSH: [D
+2024-10-04T21:49:36.579Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.579Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.579Z - Sent to SSH: [D
+2024-10-04T21:49:36.580Z - SSH data: [C
+2024-10-04T21:49:36.603Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.603Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.603Z - Sent to SSH: [C
+2024-10-04T21:49:36.603Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.603Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:36.603Z - Sent to SSH: [C
+2024-10-04T21:49:36.607Z - SSH data: 
+2024-10-04T21:49:36.697Z - Received WebSocket message: {"type":"input","data":"\u001b[B"}
+2024-10-04T21:49:36.697Z - Received input from client: {"type":"input","data":"\u001b[B"}
+2024-10-04T21:49:36.697Z - Sent to SSH: [B
+2024-10-04T21:49:36.698Z - Received WebSocket message: {"type":"input","data":"\u001b[B"}
+2024-10-04T21:49:36.698Z - Received input from client: {"type":"input","data":"\u001b[B"}
+2024-10-04T21:49:36.698Z - Sent to SSH: [B
+2024-10-04T21:49:36.706Z - SSH data: [C[C
+2024-10-04T21:49:36.806Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.806Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.806Z - Sent to SSH: [D
+2024-10-04T21:49:36.806Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.806Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:36.806Z - Sent to SSH: [D
+2024-10-04T21:49:36.950Z - SSH data: 
+2024-10-04T21:49:37.848Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:37.848Z - Sent to SSH: 
+2024-10-04T21:49:37.849Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:37.849Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:37.849Z - Sent to SSH: 
+2024-10-04T21:49:37.848Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:37.948Z - SSH data: 
+
+2024-10-04T21:49:37.948Z - SSH data: -sh: Command 'cc' not supported.
+demo@test:/$ 
+2024-10-04T21:49:38.036Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.036Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.036Z - Sent to SSH: 
+2024-10-04T21:49:38.036Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.036Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.036Z - Sent to SSH: 
+2024-10-04T21:49:38.048Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:38.147Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:38.148Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:38.192Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.192Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.193Z - Sent to SSH: 
+2024-10-04T21:49:38.193Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.193Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.193Z - Sent to SSH: 
+2024-10-04T21:49:38.293Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:38.366Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.366Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.366Z - Sent to SSH: 
+2024-10-04T21:49:38.366Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.366Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:49:38.366Z - Sent to SSH: 
+2024-10-04T21:49:38.392Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:49:38.492Z - SSH data: 
+demo@test:/$ 
+demo@test:/$ 
+2024-10-04T21:49:40.548Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:40.548Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:40.548Z - Sent to SSH: [D
+2024-10-04T21:49:40.548Z - Received WebSocket message: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:40.548Z - Received input from client: {"type":"input","data":"\u001b[D"}
+2024-10-04T21:49:40.549Z - Sent to SSH: [D
+2024-10-04T21:49:41.028Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:41.028Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:41.029Z - Sent to SSH: [C
+2024-10-04T21:49:41.029Z - Received WebSocket message: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:41.029Z - Received input from client: {"type":"input","data":"\u001b[C"}
+2024-10-04T21:49:41.029Z - Sent to SSH: [C
+2024-10-04T21:49:41.148Z - Received WebSocket message: {"type":"input","data":"\u001b[A"}
+2024-10-04T21:49:41.148Z - Received input from client: {"type":"input","data":"\u001b[A"}
+2024-10-04T21:49:41.148Z - Sent to SSH: [A
+2024-10-04T21:49:41.148Z - Received WebSocket message: {"type":"input","data":"\u001b[A"}
+2024-10-04T21:49:41.148Z - Received input from client: {"type":"input","data":"\u001b[A"}
+2024-10-04T21:49:41.148Z - Sent to SSH: [A
+2024-10-04T21:49:41.279Z - SSH data: cc
+2024-10-04T21:50:09.153Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:50:09.153Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:50:09.154Z - Sent to SSH: 
+2024-10-04T21:50:09.154Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:50:09.154Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:50:09.154Z - Sent to SSH: 
+2024-10-04T21:50:09.254Z - SSH data: 
+
+2024-10-04T21:50:09.254Z - SSH data: -sh: Command 'cc' not supported.
+demo@test:/$ 
+2024-10-04T21:50:09.353Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:50:09.859Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:50:09.859Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:50:09.859Z - Sent to SSH: a
+2024-10-04T21:50:09.859Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:50:09.859Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:50:09.859Z - Sent to SSH: a
+2024-10-04T21:50:09.959Z - SSH data: a
+2024-10-04T21:50:10.058Z - SSH data: a
+2024-10-04T21:50:15.785Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:50:15.785Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:50:15.785Z - Sent to SSH: 
+2024-10-04T21:50:15.785Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:50:15.785Z - Received input from client: {"type":"input","data":"\r"}
+2024-10-04T21:50:15.785Z - Sent to SSH: 
+2024-10-04T21:50:15.885Z - SSH data: 
+
+2024-10-04T21:50:15.885Z - SSH data: -sh: Command 'aa' not supported.
+
+2024-10-04T21:50:15.885Z - SSH data: demo@test:/$ 
+2024-10-04T21:50:15.989Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:50:16.976Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:50:16.976Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:50:16.976Z - Sent to SSH: a
+2024-10-04T21:50:16.976Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:50:16.976Z - Received input from client: {"type":"input","data":"a"}
+2024-10-04T21:50:16.976Z - Sent to SSH: a
+2024-10-04T21:50:17.076Z - SSH data: a
+2024-10-04T21:50:17.176Z - SSH data: a
+2024-10-04T21:51:15.389Z - Server started on port 3000
+2024-10-04T21:51:21.955Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T21:51:23.055Z - SSH connection established.
+2024-10-04T21:51:23.357Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T21:51:24.132Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:51:24.133Z - Sent to SSH: d
+2024-10-04T21:51:24.133Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:51:24.133Z - Sent to SSH: d
+2024-10-04T21:51:24.133Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:51:24.133Z - Sent to SSH: s
+2024-10-04T21:51:24.133Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:51:24.133Z - Sent to SSH: s
+2024-10-04T21:51:24.214Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:51:24.214Z - Sent to SSH: f
+2024-10-04T21:51:24.214Z - Received WebSocket message: {"type":"input","data":"f"}
+2024-10-04T21:51:24.214Z - Sent to SSH: f
+2024-10-04T21:51:24.233Z - SSH data: d
+2024-10-04T21:51:24.326Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:51:24.326Z - Sent to SSH: s
+2024-10-04T21:51:24.326Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:51:24.326Z - Sent to SSH: s
+2024-10-04T21:51:24.333Z - SSH data: d
+2024-10-04T21:51:24.333Z - SSH data: ssff
+2024-10-04T21:51:24.432Z - SSH data: ss
+2024-10-04T21:51:25.234Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:51:25.234Z - Sent to SSH: 
+2024-10-04T21:51:25.235Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:51:25.235Z - Sent to SSH: 
+2024-10-04T21:51:25.335Z - SSH data: 
+
+2024-10-04T21:51:25.335Z - SSH data: -sh: Command 'ddssffss' not supported.
+demo@test:/$ 
+2024-10-04T21:51:25.434Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:51:25.834Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:51:25.834Z - Sent to SSH: d
+2024-10-04T21:51:25.834Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:51:25.834Z - Sent to SSH: d
+2024-10-04T21:51:25.934Z - SSH data: d
+2024-10-04T21:51:26.034Z - SSH data: d
+2024-10-04T21:51:29.103Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:51:29.104Z - Sent to SSH: 
+2024-10-04T21:51:29.104Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:51:29.104Z - Sent to SSH: 
+2024-10-04T21:51:29.204Z - SSH data: 
+
+2024-10-04T21:51:29.204Z - SSH data: -sh: Command 'dd' not supported.
+demo@test:/$ 
+2024-10-04T21:51:29.303Z - SSH data: 
+demo@test:/$ 
+2024-10-04T21:53:26.311Z - WebSocket connection closed
+2024-10-04T21:53:26.415Z - SSH connection closed.
+2024-10-04T21:53:33.069Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T21:53:33.973Z - SSH connection established.
+2024-10-04T21:53:34.275Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T21:53:35.811Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T21:53:35.812Z - Sent to SSH: s
+2024-10-04T21:53:35.880Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:53:35.880Z - Sent to SSH: d
+2024-10-04T21:53:35.913Z - SSH data: s
+2024-10-04T21:53:36.012Z - SSH data: d
+2024-10-04T21:53:36.644Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:53:36.644Z - Sent to SSH: 
+2024-10-04T21:53:36.744Z - SSH data: 
+
+2024-10-04T21:53:36.744Z - SSH data: -sh: Command 'sd' not supported.
+
+2024-10-04T21:53:36.744Z - SSH data: demo@test:/$ 
+2024-10-04T21:53:37.288Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T21:53:37.288Z - Sent to SSH: a
+2024-10-04T21:53:37.389Z - SSH data: a
+2024-10-04T21:53:37.723Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:53:37.723Z - Sent to SSH: 
+2024-10-04T21:53:37.824Z - SSH data: 
+
+2024-10-04T21:53:37.824Z - SSH data: -sh: Command 'a' not supported.
+
+2024-10-04T21:53:37.824Z - SSH data: demo@test:/$ 
+2024-10-04T21:53:38.173Z - Received WebSocket message: {"type":"input","data":"b"}
+2024-10-04T21:53:38.174Z - Sent to SSH: b
+2024-10-04T21:53:38.274Z - SSH data: b
+2024-10-04T21:53:38.594Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:53:38.594Z - Sent to SSH: 
+2024-10-04T21:53:38.695Z - SSH data: 
+
+2024-10-04T21:53:38.695Z - SSH data: -sh: Command 'b' not supported.
+demo@test:/$ 
+2024-10-04T21:53:39.231Z - Received WebSocket message: {"type":"input","data":"c"}
+2024-10-04T21:53:39.231Z - Sent to SSH: c
+2024-10-04T21:53:39.331Z - SSH data: c
+2024-10-04T21:53:39.343Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:53:39.343Z - Sent to SSH: 
+2024-10-04T21:53:39.443Z - SSH data: 
+
+2024-10-04T21:53:39.443Z - SSH data: -sh: Command 'c' not supported.
+demo@test:/$ 
+2024-10-04T21:53:39.666Z - Received WebSocket message: {"type":"input","data":"d"}
+2024-10-04T21:53:39.666Z - Sent to SSH: d
+2024-10-04T21:53:39.766Z - SSH data: d
+2024-10-04T21:53:39.815Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T21:53:39.815Z - Sent to SSH: 
+2024-10-04T21:53:39.916Z - SSH data: 
+
+2024-10-04T21:53:39.916Z - SSH data: -sh: Command 'd' not supported.
+
+2024-10-04T21:53:39.916Z - SSH data: demo@test:/$ 
+2024-10-04T21:56:39.666Z - WebSocket connection closed
+2024-10-04T21:56:39.767Z - SSH connection closed.
+2024-10-04T22:02:02.743Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-04T22:02:03.675Z - SSH connection established.
+2024-10-04T22:02:03.974Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-04T22:02:04.815Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T22:02:04.815Z - Sent to SSH: 
+2024-10-04T22:02:04.915Z - SSH data: 
+demo@test:/$ 
+2024-10-04T22:02:05.242Z - Received WebSocket message: {"type":"input","data":"h"}
+2024-10-04T22:02:05.242Z - Sent to SSH: h
+2024-10-04T22:02:05.309Z - Received WebSocket message: {"type":"input","data":"e"}
+2024-10-04T22:02:05.309Z - Sent to SSH: e
+2024-10-04T22:02:05.342Z - SSH data: h
+2024-10-04T22:02:05.400Z - Received WebSocket message: {"type":"input","data":"l"}
+2024-10-04T22:02:05.401Z - Sent to SSH: l
+2024-10-04T22:02:05.441Z - SSH data: e
+2024-10-04T22:02:05.541Z - SSH data: l
+2024-10-04T22:02:05.579Z - Received WebSocket message: {"type":"input","data":"p"}
+2024-10-04T22:02:05.579Z - Sent to SSH: p
+2024-10-04T22:02:05.680Z - SSH data: p
+2024-10-04T22:02:05.699Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T22:02:05.700Z - Sent to SSH: 
+2024-10-04T22:02:05.799Z - SSH data: 
+
+2024-10-04T22:02:05.800Z - SSH data: Supported commands:
+ whoami  uname   hostname
+ echo    mv      rm
+ pwd     mkdir   rmdir
+ dir     cp      ls
+ groups  cd      set
+ exit    help
+
+2024-10-04T22:02:05.800Z - SSH data: demo@test:/$ 
+2024-10-04T22:02:07.289Z - Received WebSocket message: {"type":"input","data":"w"}
+2024-10-04T22:02:07.289Z - Sent to SSH: w
+2024-10-04T22:02:07.365Z - Received WebSocket message: {"type":"input","data":"h"}
+2024-10-04T22:02:07.365Z - Sent to SSH: h
+2024-10-04T22:02:07.389Z - SSH data: w
+2024-10-04T22:02:07.424Z - Received WebSocket message: {"type":"input","data":"o"}
+2024-10-04T22:02:07.424Z - Sent to SSH: o
+2024-10-04T22:02:07.489Z - SSH data: h
+2024-10-04T22:02:07.574Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T22:02:07.575Z - Sent to SSH: a
+2024-10-04T22:02:07.589Z - SSH data: o
+2024-10-04T22:02:07.688Z - SSH data: a
+2024-10-04T22:02:07.739Z - Received WebSocket message: {"type":"input","data":"m"}
+2024-10-04T22:02:07.739Z - Sent to SSH: m
+2024-10-04T22:02:07.839Z - SSH data: m
+2024-10-04T22:02:07.949Z - Received WebSocket message: {"type":"input","data":"i"}
+2024-10-04T22:02:07.950Z - Sent to SSH: i
+2024-10-04T22:02:08.050Z - SSH data: i
+2024-10-04T22:02:08.784Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T22:02:08.784Z - Sent to SSH: 
+2024-10-04T22:02:08.884Z - SSH data: 
+
+2024-10-04T22:02:08.885Z - SSH data: demo
+demo@test:/$ 
+2024-10-04T22:02:11.002Z - Received WebSocket message: {"type":"input","data":"h"}
+2024-10-04T22:02:11.002Z - Sent to SSH: h
+2024-10-04T22:02:11.180Z - SSH data: h
+2024-10-04T22:02:11.180Z - Received WebSocket message: {"type":"input","data":"o"}
+2024-10-04T22:02:11.180Z - Sent to SSH: o
+2024-10-04T22:02:11.196Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T22:02:11.197Z - Sent to SSH: s
+2024-10-04T22:02:11.279Z - SSH data: o
+2024-10-04T22:02:11.339Z - Received WebSocket message: {"type":"input","data":"t"}
+2024-10-04T22:02:11.339Z - Sent to SSH: t
+2024-10-04T22:02:11.378Z - SSH data: s
+2024-10-04T22:02:11.437Z - Received WebSocket message: {"type":"input","data":"n"}
+2024-10-04T22:02:11.438Z - Sent to SSH: n
+2024-10-04T22:02:11.478Z - SSH data: t
+2024-10-04T22:02:11.497Z - Received WebSocket message: {"type":"input","data":"a"}
+2024-10-04T22:02:11.497Z - Sent to SSH: a
+2024-10-04T22:02:11.577Z - SSH data: n
+2024-10-04T22:02:11.624Z - Received WebSocket message: {"type":"input","data":"m"}
+2024-10-04T22:02:11.624Z - Sent to SSH: m
+2024-10-04T22:02:11.676Z - SSH data: a
+2024-10-04T22:02:11.729Z - Received WebSocket message: {"type":"input","data":"e"}
+2024-10-04T22:02:11.729Z - Sent to SSH: e
+2024-10-04T22:02:11.775Z - SSH data: m
+2024-10-04T22:02:11.812Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T22:02:11.812Z - Sent to SSH: 
+2024-10-04T22:02:11.874Z - SSH data: e
+2024-10-04T22:02:11.973Z - SSH data: 
+
+2024-10-04T22:02:11.973Z - SSH data: test
+demo@test:/$ 
+2024-10-04T22:02:12.712Z - Received WebSocket message: {"type":"input","data":"l"}
+2024-10-04T22:02:12.712Z - Sent to SSH: l
+2024-10-04T22:02:12.809Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-04T22:02:12.810Z - Sent to SSH: s
+2024-10-04T22:02:12.811Z - SSH data: l
+2024-10-04T22:02:12.886Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-04T22:02:12.887Z - Sent to SSH: 
+2024-10-04T22:02:12.910Z - SSH data: s
+2024-10-04T22:02:13.009Z - SSH data: 
+
+2024-10-04T22:02:13.010Z - SSH data: pub
+readme.txt
+
+2024-10-04T22:02:13.010Z - SSH data: demo@test:/$ 
+2024-10-04T22:05:13.088Z - WebSocket connection closed
+2024-10-04T22:05:13.188Z - SSH connection closed.
+2024-10-04T22:22:02.982Z - WebSocket connection closed
+2024-10-04T22:30:57.943Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"abc","password":"aaaaa","logLevel":"error"}
+2024-10-04T22:30:58.891Z - Connection error: All configured authentication methods failed
+2024-10-04T22:31:35.886Z - WebSocket connection closed
+2024-10-04T22:31:52.596Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"juniper","password":"juniper@123","logLevel":"error"}
+2024-10-04T22:31:53.500Z - Connection error: All configured authentication methods failed
+2024-10-04T22:32:16.068Z - WebSocket connection closed
+2024-10-05T00:54:52.492Z - Server started on port 3000
+2024-10-05T00:54:53.580Z - WebSocket connection closed
+2024-10-05T00:55:07.782Z - WebSocket connection closed
+2024-10-05T00:55:35.791Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2024-10-05T00:55:36.895Z - SSH connection established.
+2024-10-05T00:55:37.200Z - SSH data: For a list of supported commands, type 'help'.
+demo@test:/$ 
+2024-10-05T00:55:43.379Z - Received WebSocket message: {"type":"input","data":"h"}
+2024-10-05T00:55:43.380Z - Sent to SSH: h
+2024-10-05T00:55:43.487Z - SSH data: h
+2024-10-05T00:55:44.410Z - Received WebSocket message: {"type":"input","data":"l"}
+2024-10-05T00:55:44.410Z - Sent to SSH: l
+2024-10-05T00:55:44.511Z - SSH data: l
+2024-10-05T00:55:44.660Z - Sent to SSH: s
+2024-10-05T00:55:44.659Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-05T00:55:44.760Z - SSH data: s
+2024-10-05T00:55:45.575Z - Received WebSocket message: {"type":"input","data":""}
+2024-10-05T00:55:45.575Z - Sent to SSH: 
+2024-10-05T00:55:45.675Z - SSH data:  
+2024-10-05T00:55:45.719Z - Received WebSocket message: {"type":"input","data":""}
+2024-10-05T00:55:45.719Z - Sent to SSH: 
+2024-10-05T00:55:45.820Z - SSH data:  
+2024-10-05T00:55:45.941Z - Received WebSocket message: {"type":"input","data":""}
+2024-10-05T00:55:45.942Z - Sent to SSH: 
+2024-10-05T00:55:46.042Z - SSH data:  
+2024-10-05T00:55:46.057Z - Received WebSocket message: {"type":"input","data":""}
+2024-10-05T00:55:46.057Z - Sent to SSH: 
+2024-10-05T00:55:46.182Z - Received WebSocket message: {"type":"input","data":""}
+2024-10-05T00:55:46.182Z - Sent to SSH: 
+2024-10-05T00:55:46.382Z - Received WebSocket message: {"type":"input","data":""}
+2024-10-05T00:55:46.382Z - Sent to SSH: 
+2024-10-05T00:55:47.147Z - Received WebSocket message: {"type":"input","data":"l"}
+2024-10-05T00:55:47.147Z - Sent to SSH: l
+2024-10-05T00:55:47.247Z - SSH data: l
+2024-10-05T00:55:47.282Z - Received WebSocket message: {"type":"input","data":"s"}
+2024-10-05T00:55:47.282Z - Sent to SSH: s
+2024-10-05T00:55:47.383Z - SSH data: s
+2024-10-05T00:55:54.653Z - Received WebSocket message: {"type":"input","data":"\r"}
+2024-10-05T00:55:54.653Z - Sent to SSH: 
+2024-10-05T00:55:54.754Z - SSH data: 
+
+2024-10-05T00:55:54.754Z - SSH data: pub
+readme.txt
+
+2024-10-05T00:55:54.754Z - SSH data: demo@test:/$ 
+2024-10-05T00:56:07.191Z - WebSocket connection closed
+2024-10-05T00:56:07.294Z - SSH connection closed.
+2024-10-05T03:01:43.298Z - Server started on port 3000
+2024-10-05T03:01:44.384Z - WebSocket connection closed
+2024-10-05T03:04:47.403Z - WebSocket connection closed
+2024-10-05T04:59:42.411Z - Server started on port 3000
+2024-10-05T04:59:42.900Z - WebSocket connection closed
+2024-10-08T13:11:44.758Z - Server started on port 3000
+2024-10-08T13:11:45.207Z - WebSocket connection closed
+2024-10-08T13:11:45.262Z - WebSocket connection closed
+2024-10-08T13:11:50.272Z - WebSocket connection closed
+2024-10-08T13:27:12.050Z - Server started on port 3000
+2024-10-08T13:27:35.617Z - WebSocket connection closed
+2024-10-08T14:07:22.938Z - Server started on port 3000
+2024-10-08T14:07:23.552Z - WebSocket connection closed
+2024-10-09T15:54:38.846Z - Server started on port 3000
+2024-10-09T16:55:52.753Z - Server started on port 3000
+2024-10-09T16:55:53.520Z - WebSocket connection closed
+2024-10-09T16:55:53.520Z - WebSocket connection closed
+2024-10-09T16:55:53.520Z - WebSocket connection closed
+2024-10-09T16:56:18.013Z - WebSocket connection closed
+2024-10-09T16:56:22.932Z - WebSocket connection closed
+2024-10-09T17:57:24.762Z - Server started on port 3000
+2024-10-09T17:57:25.336Z - WebSocket connection closed
+2024-10-09T19:20:28.254Z - Server started on port 3000
+2024-10-09T19:20:29.849Z - WebSocket connection closed
+2024-10-09T19:22:35.981Z - WebSocket connection closed
+2024-10-09T19:37:52.336Z - Server started on port 3000
+2024-10-09T19:37:52.630Z - WebSocket connection closed
+2024-10-09T20:23:01.748Z - Server started on port 3000
+2024-10-09T20:23:02.241Z - WebSocket connection closed
+2024-10-09T20:23:22.412Z - WebSocket connection closed
+2024-10-09T22:29:13.925Z - Server started on port 3000
+2024-10-09T22:29:14.429Z - WebSocket connection closed
+2024-10-09T23:22:31.852Z - Server started on port 3000
+2024-10-10T02:07:46.735Z - Server started on port 3000
+2024-10-10T03:38:32.344Z - Server started on port 3000
+2024-10-10T13:53:15.230Z - Server started on port 3000
+2024-10-12T05:39:04.946Z - Server started on port 3000
+2024-10-12T18:45:40.342Z - Server started on port 3000
+2024-10-12T18:45:42.037Z - WebSocket connection closed
+2024-10-12T18:45:42.356Z - WebSocket connection closed
+2024-10-12T18:48:44.810Z - WebSocket connection closed
+2024-10-12T20:03:03.440Z - Server started on port 3000
+2024-10-12T20:03:03.746Z - WebSocket connection closed
+2024-10-12T20:06:06.111Z - WebSocket connection closed
+2024-10-13T07:24:56.933Z - Server started on port 3000
+2024-10-13T07:24:57.854Z - WebSocket connection closed
+2024-10-13T07:25:39.430Z - WebSocket connection closed
+2024-10-13T17:00:01.765Z - Server started on port 3000
+2024-10-13T19:08:45.550Z - Server started on port 3000
+2024-10-14T02:21:50.633Z - Server started on port 3000
+2024-10-14T02:21:51.363Z - WebSocket connection closed
+2024-10-15T02:47:09.332Z - Server started on port 3000
+2024-10-15T02:50:11.277Z - WebSocket connection closed
+2024-10-17T02:30:37.135Z - Server started on port 3000
+2024-10-17T02:30:38.522Z - WebSocket connection closed
+2024-10-17T02:30:38.545Z - WebSocket connection closed
+2024-10-17T02:31:04.726Z - WebSocket connection closed
+2024-10-17T02:31:39.972Z - WebSocket connection closed
+2024-10-17T02:32:06.196Z - WebSocket connection closed
+2024-10-17T02:35:06.711Z - WebSocket connection closed
+2024-10-23T15:58:47.151Z - Server started on port 3000
+2024-11-08T16:05:30.061Z - Server started on port 3000
+2024-11-14T02:32:18.401Z - Server started on port 3000
+2024-11-14T17:16:43.569Z - Server started on port 3000
+2024-11-14T17:16:43.776Z - WebSocket connection closed
+2024-11-14T17:16:59.874Z - WebSocket connection closed
+2024-11-14T19:10:50.468Z - Server started on port 3000
+2024-11-14T19:10:51.515Z - WebSocket connection closed
+2024-11-14T19:13:39.086Z - WebSocket connection closed
+2024-11-14T20:41:46.280Z - Server started on port 3000
+2024-11-30T13:07:07.898Z - Server started on port 3000
+2025-01-10T05:37:30.615Z - Server started on port 3000
+2025-01-10T05:38:31.401Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2025-01-10T05:38:32.741Z - SSH connection established.
+2025-01-10T05:38:33.068Z - SSH data: For a list of supported commands, type 'help'.
+
+2025-01-10T05:38:33.068Z - SSH data: demo@test:/$ 
+2025-01-10T05:38:33.986Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:38:33.986Z - Sent to SSH: s
+2025-01-10T05:38:34.095Z - SSH data: s
+2025-01-10T05:38:34.205Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:38:34.206Z - Sent to SSH: d
+2025-01-10T05:38:34.206Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:38:34.206Z - Sent to SSH: f
+2025-01-10T05:38:34.314Z - SSH data: d
+2025-01-10T05:38:34.422Z - SSH data: f
+2025-01-10T05:38:34.424Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:38:34.424Z - Sent to SSH: s
+2025-01-10T05:38:34.424Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:38:34.424Z - Sent to SSH: d
+2025-01-10T05:38:34.532Z - SSH data: s
+2025-01-10T05:38:34.640Z - SSH data: d
+2025-01-10T05:38:34.643Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:38:34.643Z - Sent to SSH: 
+2025-01-10T05:38:34.751Z - SSH data: 
+
+2025-01-10T05:38:34.751Z - SSH data: -sh: Command 'sdfsd' not supported.
+
+2025-01-10T05:38:34.751Z - SSH data: demo@test:/$ 
+2025-01-10T05:38:35.307Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:38:35.307Z - Sent to SSH: d
+2025-01-10T05:38:35.415Z - SSH data: d
+2025-01-10T05:38:35.526Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:38:35.526Z - Sent to SSH: s
+2025-01-10T05:38:35.526Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:38:35.526Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:38:35.526Z - Sent to SSH: f
+2025-01-10T05:38:35.526Z - Sent to SSH: s
+2025-01-10T05:38:35.634Z - SSH data: s
+2025-01-10T05:38:35.742Z - SSH data: f
+2025-01-10T05:38:35.742Z - SSH data: s
+2025-01-10T05:38:35.744Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:38:35.745Z - Sent to SSH: 
+2025-01-10T05:38:35.853Z - SSH data: 
+
+2025-01-10T05:38:35.853Z - SSH data: -sh: Command 'dsfs' not supported.
+
+2025-01-10T05:38:35.853Z - SSH data: demo@test:/$ 
+2025-01-10T05:39:10.804Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:39:10.804Z - Sent to SSH: s
+2025-01-10T05:39:10.912Z - SSH data: s
+2025-01-10T05:39:11.022Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:39:11.022Z - Sent to SSH: d
+2025-01-10T05:39:11.022Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:39:11.023Z - Sent to SSH: f
+2025-01-10T05:39:11.132Z - SSH data: d
+2025-01-10T05:39:11.240Z - SSH data: f
+2025-01-10T05:39:11.241Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:39:11.241Z - Sent to SSH: d
+2025-01-10T05:39:11.241Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:39:11.241Z - Sent to SSH: s
+2025-01-10T05:39:11.242Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:39:11.242Z - Sent to SSH: f
+2025-01-10T05:39:11.349Z - SSH data: d
+2025-01-10T05:39:11.457Z - SSH data: s
+2025-01-10T05:39:11.458Z - SSH data: f
+2025-01-10T05:39:11.460Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:39:11.460Z - Sent to SSH: s
+2025-01-10T05:39:11.460Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:39:11.460Z - Sent to SSH: d
+2025-01-10T05:39:11.568Z - SSH data: s
+2025-01-10T05:39:11.676Z - SSH data: d
+2025-01-10T05:39:13.331Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:13.332Z - Sent to SSH: 
+2025-01-10T05:39:13.440Z - SSH data:  
+2025-01-10T05:39:13.840Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:13.840Z - Sent to SSH: 
+2025-01-10T05:39:13.948Z - SSH data:  
+2025-01-10T05:39:14.059Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.059Z - Sent to SSH: 
+2025-01-10T05:39:14.059Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.059Z - Sent to SSH: 
+2025-01-10T05:39:14.060Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.060Z - Sent to SSH: 
+2025-01-10T05:39:14.060Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.060Z - Sent to SSH: 
+2025-01-10T05:39:14.060Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.060Z - Sent to SSH: 
+2025-01-10T05:39:14.060Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.060Z - Sent to SSH: 
+2025-01-10T05:39:14.167Z - SSH data:  
+2025-01-10T05:39:14.275Z - SSH data:  
+2025-01-10T05:39:14.275Z - SSH data:  
+2025-01-10T05:39:14.275Z - SSH data:    
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.278Z - Sent to SSH: 
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.278Z - Sent to SSH: 
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.278Z - Sent to SSH: 
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.278Z - Sent to SSH: 
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.278Z - Sent to SSH: 
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.278Z - Sent to SSH: 
+2025-01-10T05:39:14.278Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.279Z - Sent to SSH: 
+2025-01-10T05:39:14.497Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.497Z - Sent to SSH: 
+2025-01-10T05:39:14.497Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.497Z - Sent to SSH: 
+2025-01-10T05:39:14.498Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.498Z - Sent to SSH: 
+2025-01-10T05:39:14.498Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.498Z - Sent to SSH: 
+2025-01-10T05:39:14.498Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.498Z - Sent to SSH: 
+2025-01-10T05:39:14.498Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.498Z - Sent to SSH: 
+2025-01-10T05:39:14.716Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.716Z - Sent to SSH: 
+2025-01-10T05:39:14.716Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.716Z - Sent to SSH: 
+2025-01-10T05:39:14.716Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.716Z - Sent to SSH: 
+2025-01-10T05:39:14.716Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.717Z - Sent to SSH: 
+2025-01-10T05:39:14.717Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.717Z - Sent to SSH: 
+2025-01-10T05:39:14.717Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.717Z - Sent to SSH: 
+2025-01-10T05:39:14.717Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.717Z - Sent to SSH: 
+2025-01-10T05:39:14.935Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.935Z - Sent to SSH: 
+2025-01-10T05:39:14.935Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.935Z - Sent to SSH: 
+2025-01-10T05:39:14.935Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.935Z - Sent to SSH: 
+2025-01-10T05:39:14.936Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:14.936Z - Sent to SSH: 
+2025-01-10T05:39:15.334Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:15.334Z - Sent to SSH: 
+2025-01-10T05:39:15.442Z - SSH data: 
+demo@test:/$ 
+2025-01-10T05:39:15.553Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:15.553Z - Sent to SSH: 
+2025-01-10T05:39:15.661Z - SSH data: 
+
+2025-01-10T05:39:15.661Z - SSH data: demo@test:/$ 
+2025-01-10T05:39:15.772Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:15.772Z - Sent to SSH: 
+2025-01-10T05:39:15.880Z - SSH data: 
+
+2025-01-10T05:39:15.880Z - SSH data: demo@test:/$ 
+2025-01-10T05:39:16.526Z - Sent to SSH: a
+2025-01-10T05:39:16.526Z - Received WebSocket message: {"type":"input","data":"a"}
+2025-01-10T05:39:16.634Z - SSH data: a
+2025-01-10T05:39:16.758Z - Received WebSocket message: {"type":"input","data":"b"}
+2025-01-10T05:39:16.759Z - Sent to SSH: b
+2025-01-10T05:39:16.867Z - SSH data: b
+2025-01-10T05:39:16.997Z - Received WebSocket message: {"type":"input","data":"c"}
+2025-01-10T05:39:16.997Z - Sent to SSH: c
+2025-01-10T05:39:17.105Z - SSH data: c
+2025-01-10T05:39:17.823Z - Received WebSocket message: {"type":"input","data":"\u0006"}
+2025-01-10T05:39:17.824Z - Sent to SSH: 
+2025-01-10T05:39:18.042Z - Received WebSocket message: {"type":"input","data":"\u0006"}
+2025-01-10T05:39:18.043Z - Sent to SSH: 
+2025-01-10T05:39:18.739Z - WebSocket connection closed
+2025-01-10T05:39:18.849Z - SSH connection closed.
+2025-01-10T05:39:27.179Z - WebSocket connection closed
+2025-01-10T05:39:32.130Z - Received WebSocket message: {"type":"start-ssh","hostname":"test.rebex.net","username":"demo","password":"password","logLevel":"error"}
+2025-01-10T05:39:33.092Z - SSH connection established.
+2025-01-10T05:39:33.423Z - SSH data: For a list of supported commands, type 'help'.
+
+2025-01-10T05:39:33.424Z - SSH data: demo@test:/$ 
+2025-01-10T05:39:34.314Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:39:34.314Z - Sent to SSH: s
+2025-01-10T05:39:34.422Z - SSH data: s
+2025-01-10T05:39:34.533Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:39:34.534Z - Sent to SSH: d
+2025-01-10T05:39:34.534Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:39:34.534Z - Sent to SSH: f
+2025-01-10T05:39:34.641Z - SSH data: d
+2025-01-10T05:39:34.749Z - SSH data: f
+2025-01-10T05:39:34.753Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:39:34.753Z - Sent to SSH: s
+2025-01-10T05:39:34.861Z - SSH data: s
+2025-01-10T05:39:36.841Z - Received WebSocket message: {"type":"input","data":"\u0002"}
+2025-01-10T05:39:36.841Z - Sent to SSH: 
+2025-01-10T05:39:37.061Z - Received WebSocket message: {"type":"input","data":"\u0002"}
+2025-01-10T05:39:37.061Z - Sent to SSH: 
+2025-01-10T05:39:37.906Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:37.906Z - Sent to SSH: 
+2025-01-10T05:39:38.194Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:38.195Z - Sent to SSH: 
+2025-01-10T05:39:39.836Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:39.836Z - Sent to SSH: 
+2025-01-10T05:39:39.944Z - SSH data:  
+2025-01-10T05:39:40.055Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:40.056Z - Sent to SSH: 
+2025-01-10T05:39:40.168Z - SSH data:  
+2025-01-10T05:39:40.275Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:40.275Z - Sent to SSH: 
+2025-01-10T05:39:40.275Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:40.275Z - Sent to SSH: 
+2025-01-10T05:39:40.383Z - SSH data:  
+2025-01-10T05:39:40.492Z - SSH data:  
+2025-01-10T05:39:40.914Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:40.914Z - Sent to SSH: 
+2025-01-10T05:39:40.914Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:40.914Z - Sent to SSH: 
+2025-01-10T05:39:41.595Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:39:41.595Z - Sent to SSH: f
+2025-01-10T05:39:41.703Z - SSH data: f
+2025-01-10T05:39:41.813Z - Received WebSocket message: {"type":"input","data":"g"}
+2025-01-10T05:39:41.814Z - Sent to SSH: g
+2025-01-10T05:39:41.814Z - Received WebSocket message: {"type":"input","data":"g"}
+2025-01-10T05:39:41.814Z - Sent to SSH: g
+2025-01-10T05:39:41.921Z - SSH data: g
+2025-01-10T05:39:42.029Z - SSH data: g
+2025-01-10T05:39:42.095Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:39:42.095Z - Sent to SSH: f
+2025-01-10T05:39:42.096Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:39:42.096Z - Sent to SSH: d
+2025-01-10T05:39:42.204Z - SSH data: f
+2025-01-10T05:39:42.314Z - SSH data: d
+2025-01-10T05:39:42.512Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:42.512Z - Sent to SSH: 
+2025-01-10T05:39:42.731Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:42.731Z - Sent to SSH: 
+2025-01-10T05:39:43.315Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:43.315Z - Sent to SSH: 
+2025-01-10T05:39:43.534Z - Received WebSocket message: {"type":"input","data":"\u0004"}
+2025-01-10T05:39:43.534Z - Sent to SSH: 
+2025-01-10T05:39:44.177Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:44.177Z - Sent to SSH: 
+2025-01-10T05:39:44.285Z - SSH data:  
+2025-01-10T05:39:44.397Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:44.398Z - Sent to SSH: 
+2025-01-10T05:39:44.506Z - SSH data:  
+2025-01-10T05:39:44.617Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:44.617Z - Sent to SSH: 
+2025-01-10T05:39:44.725Z - SSH data:  
+2025-01-10T05:39:44.837Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:44.837Z - Sent to SSH: 
+2025-01-10T05:39:44.837Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:44.837Z - Sent to SSH: 
+2025-01-10T05:39:44.945Z - SSH data:  
+2025-01-10T05:39:45.052Z - SSH data:  
+2025-01-10T05:39:45.056Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:45.056Z - Sent to SSH: 
+2025-01-10T05:39:45.276Z - Received WebSocket message: {"type":"input","data":""}
+2025-01-10T05:39:45.276Z - Sent to SSH: 
+2025-01-10T05:39:45.497Z - Received WebSocket message: {"type":"input","data":"t"}
+2025-01-10T05:39:45.497Z - Sent to SSH: t
+2025-01-10T05:39:45.605Z - SSH data: t
+2025-01-10T05:39:45.716Z - Received WebSocket message: {"type":"input","data":"o"}
+2025-01-10T05:39:45.716Z - Sent to SSH: o
+2025-01-10T05:39:45.716Z - Received WebSocket message: {"type":"input","data":"p"}
+2025-01-10T05:39:45.716Z - Sent to SSH: p
+2025-01-10T05:39:45.824Z - SSH data: o
+2025-01-10T05:39:45.932Z - SSH data: p
+2025-01-10T05:39:46.390Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:46.390Z - Sent to SSH: 
+2025-01-10T05:39:46.499Z - SSH data: 
+
+2025-01-10T05:39:46.499Z - SSH data: -sh: Command 'top' not supported.
+demo@test:/$ 
+2025-01-10T05:39:48.737Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:48.737Z - Sent to SSH: 
+2025-01-10T05:39:48.845Z - SSH data: 
+demo@test:/$ 
+2025-01-10T05:39:48.957Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:48.957Z - Sent to SSH: 
+2025-01-10T05:39:49.065Z - SSH data: 
+demo@test:/$ 
+2025-01-10T05:39:49.614Z - Received WebSocket message: {"type":"input","data":"h"}
+2025-01-10T05:39:49.614Z - Sent to SSH: h
+2025-01-10T05:39:49.722Z - SSH data: h
+2025-01-10T05:39:49.834Z - Received WebSocket message: {"type":"input","data":"e"}
+2025-01-10T05:39:49.834Z - Sent to SSH: e
+2025-01-10T05:39:49.834Z - Received WebSocket message: {"type":"input","data":"l"}
+2025-01-10T05:39:49.834Z - Sent to SSH: l
+2025-01-10T05:39:49.942Z - SSH data: e
+2025-01-10T05:39:50.050Z - SSH data: l
+2025-01-10T05:39:50.096Z - Received WebSocket message: {"type":"input","data":"p"}
+2025-01-10T05:39:50.096Z - Sent to SSH: p
+2025-01-10T05:39:50.204Z - SSH data: p
+2025-01-10T05:39:50.273Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:50.274Z - Sent to SSH: 
+2025-01-10T05:39:50.382Z - SSH data: 
+
+2025-01-10T05:39:50.382Z - SSH data: Supported commands:
+ whoami  uname   hostname
+ echo    mv      rm
+ pwd     mkdir   rmdir
+ dir     cp      ls
+ groups  cd      set
+ exit    help
+demo@test:/$ 
+2025-01-10T05:39:53.740Z - Received WebSocket message: {"type":"input","data":"w"}
+2025-01-10T05:39:53.740Z - Sent to SSH: w
+2025-01-10T05:39:53.848Z - SSH data: w
+2025-01-10T05:39:53.960Z - Received WebSocket message: {"type":"input","data":"h"}
+2025-01-10T05:39:53.960Z - Sent to SSH: h
+2025-01-10T05:39:53.960Z - Received WebSocket message: {"type":"input","data":"o"}
+2025-01-10T05:39:53.960Z - Sent to SSH: o
+2025-01-10T05:39:54.068Z - SSH data: h
+2025-01-10T05:39:54.176Z - SSH data: o
+2025-01-10T05:39:54.179Z - Received WebSocket message: {"type":"input","data":"a"}
+2025-01-10T05:39:54.179Z - Sent to SSH: a
+2025-01-10T05:39:54.287Z - SSH data: a
+2025-01-10T05:39:54.399Z - Received WebSocket message: {"type":"input","data":"m"}
+2025-01-10T05:39:54.400Z - Sent to SSH: m
+2025-01-10T05:39:54.508Z - SSH data: m
+2025-01-10T05:39:54.621Z - Received WebSocket message: {"type":"input","data":"i"}
+2025-01-10T05:39:54.622Z - Sent to SSH: i
+2025-01-10T05:39:54.729Z - SSH data: i
+2025-01-10T05:39:55.361Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:39:55.361Z - Sent to SSH: 
+2025-01-10T05:39:55.469Z - SSH data: 
+
+2025-01-10T05:39:55.469Z - SSH data: demo
+demo@test:/$ 
+2025-01-10T05:40:06.609Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:40:06.610Z - Sent to SSH: d
+2025-01-10T05:40:06.718Z - SSH data: d
+2025-01-10T05:40:06.829Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:40:06.829Z - Sent to SSH: s
+2025-01-10T05:40:06.829Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:40:06.829Z - Sent to SSH: f
+2025-01-10T05:40:06.830Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:40:06.830Z - Sent to SSH: d
+2025-01-10T05:40:06.830Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:40:06.830Z - Sent to SSH: s
+2025-01-10T05:40:06.937Z - SSH data: s
+2025-01-10T05:40:07.045Z - SSH data: f
+2025-01-10T05:40:07.045Z - SSH data: ds
+2025-01-10T05:40:07.442Z - Received WebSocket message: {"type":"input","data":"\u0005"}
+2025-01-10T05:40:07.442Z - Sent to SSH: 
+2025-01-10T05:40:07.442Z - Received WebSocket message: {"type":"input","data":"\u0005"}
+2025-01-10T05:40:07.442Z - Sent to SSH: 
+2025-01-10T05:40:08.689Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:40:08.689Z - Sent to SSH: d
+2025-01-10T05:40:08.798Z - SSH data: d
+2025-01-10T05:40:08.892Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:40:08.893Z - Sent to SSH: f
+2025-01-10T05:40:08.893Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:40:08.893Z - Sent to SSH: d
+2025-01-10T05:40:08.893Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:40:08.893Z - Sent to SSH: s
+2025-01-10T05:40:09.001Z - SSH data: f
+2025-01-10T05:40:09.108Z - SSH data: d
+2025-01-10T05:40:09.109Z - SSH data: s
+2025-01-10T05:40:09.969Z - Received WebSocket message: {"type":"input","data":"\f"}
+2025-01-10T05:40:09.969Z - Sent to SSH: 
+2025-01-10T05:40:09.969Z - Received WebSocket message: {"type":"input","data":"\f"}
+2025-01-10T05:40:09.970Z - Sent to SSH: 
+2025-01-10T05:40:10.712Z - Sent to SSH: 
+2025-01-10T05:40:10.712Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:10.820Z - SSH data: -sh: Command 'dsfdsdfds' not supported.
+
+2025-01-10T05:40:10.820Z - SSH data: 
+
+2025-01-10T05:40:10.820Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:10.931Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:10.931Z - Sent to SSH: 
+2025-01-10T05:40:11.039Z - SSH data: 
+
+2025-01-10T05:40:11.039Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:11.151Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:11.151Z - Sent to SSH: 
+2025-01-10T05:40:11.262Z - SSH data: 
+
+2025-01-10T05:40:11.263Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:11.371Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:11.371Z - Sent to SSH: 
+2025-01-10T05:40:11.479Z - SSH data: 
+
+2025-01-10T05:40:11.479Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:11.592Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:11.592Z - Sent to SSH: 
+2025-01-10T05:40:11.592Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:11.593Z - Sent to SSH: 
+2025-01-10T05:40:11.701Z - SSH data: 
+
+2025-01-10T05:40:11.701Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:11.808Z - SSH data: 
+demo@test:/$ 
+2025-01-10T05:40:11.810Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:11.811Z - Sent to SSH: 
+2025-01-10T05:40:11.919Z - SSH data: 
+
+2025-01-10T05:40:11.919Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:12.030Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:12.030Z - Sent to SSH: 
+2025-01-10T05:40:12.030Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:12.031Z - Sent to SSH: 
+2025-01-10T05:40:12.138Z - SSH data: 
+
+2025-01-10T05:40:12.139Z - SSH data: demo@test:/$ 
+2025-01-10T05:40:12.246Z - SSH data: 
+demo@test:/$ 
+2025-01-10T05:40:12.251Z - Received WebSocket message: {"type":"input","data":"\r"}
+2025-01-10T05:40:12.251Z - Sent to SSH: 
+2025-01-10T05:40:12.359Z - SSH data: 
+demo@test:/$ 
+2025-01-10T05:40:13.472Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:40:13.472Z - Sent to SSH: s
+2025-01-10T05:40:13.580Z - SSH data: s
+2025-01-10T05:40:13.693Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:40:13.694Z - Received WebSocket message: {"type":"input","data":"f"}
+2025-01-10T05:40:13.694Z - Sent to SSH: f
+2025-01-10T05:40:13.693Z - Sent to SSH: d
+2025-01-10T05:40:13.802Z - SSH data: d
+2025-01-10T05:40:13.909Z - SSH data: f
+2025-01-10T05:40:13.912Z - Received WebSocket message: {"type":"input","data":"s"}
+2025-01-10T05:40:13.912Z - Sent to SSH: s
+2025-01-10T05:40:13.912Z - Received WebSocket message: {"type":"input","data":"d"}
+2025-01-10T05:40:13.912Z - Sent to SSH: d
+2025-01-10T05:40:14.023Z - SSH data: s
+2025-01-10T05:40:14.128Z - SSH data: d
+2025-01-10T05:42:28.890Z - WebSocket connection closed
+2025-01-10T05:42:28.998Z - SSH connection closed.
+2025-01-10T05:45:47.690Z - WebSocket connection closed
+2025-01-10T06:03:24.801Z - Server started on port 3000
+2025-01-10T06:03:25.817Z - WebSocket connection closed
+2025-01-10T15:03:16.033Z - Server started on port 3000
+2025-05-27T22:32:16.199Z - Server started on port 3000
+2025-05-27T22:32:17.510Z - WebSocket connection closed
